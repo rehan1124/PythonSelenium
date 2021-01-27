@@ -8,6 +8,7 @@ class PythonHomePage:
     Locators are defined as class variables so that it is flexible to modify at one
     place and then later re-use it anywhere
     """
+
     search_field = (By.ID, "id-search-field")
 
     def __init__(self, driver):
@@ -31,4 +32,3 @@ class PythonHomePage:
         element.send_keys(text)
         element.send_keys(Keys.ENTER)
         return element
-

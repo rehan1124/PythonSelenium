@@ -1,10 +1,9 @@
-from utils.reusable_methods import *
+from configurations.reusable_methods import *
 from page_objects.python_home_page import *
 import time
 
 
 class TestSmoke(Utils):
-
     def test_python_home_page(self):
         """
         Test for making search in Python homepage and confirming results are found.

@@ -9,14 +9,15 @@ def get_config():
     :rtype:
     """
     cfg = ConfigParser()
-    cfg.read("utils/properties.ini")
+    cfg.read("configurations/properties.ini")
     return cfg
 
 
 @pytest.mark.usefixtures("create_driver")
 class Utils:
     """
-    Class will hold all the reuable methods that can be used across tests
+    Class will hold all the reuable methods that can be used across test_cases
     """
+
     def assert_content_absence(self, expected, actual):
         assert expected not in actual
