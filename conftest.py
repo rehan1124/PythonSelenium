@@ -1,6 +1,5 @@
 from selenium import webdriver
-import pytest
-from configurations.reusable_methods import *
+from utilities.read_config import *
 
 EXECUTABLE_PATH = "browser_driver/chromedriver.exe"
 cfg = get_config()

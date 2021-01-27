@@ -1,4 +1,4 @@
-from configurations.reusable_methods import *
+from utilities.read_config import *
 from page_objects.python_home_page import *
 import time
 

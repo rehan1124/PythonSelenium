@@ -9,7 +9,7 @@ def get_config():
     :rtype:
     """
     cfg = ConfigParser()
-    cfg.read("configurations/properties.ini")
+    cfg.read("Configurations/properties.ini")
     return cfg
 
 
