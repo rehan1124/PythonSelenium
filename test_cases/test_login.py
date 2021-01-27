@@ -1,8 +1,6 @@
-from selenium import webdriver
-import pytest
 import inspect
 from page_objects.login_page import Login
-from configurations.reusable_methods import *
+from utilities.read_config import *
 
 
 @pytest.mark.usefixtures("create_driver")
