@@ -7,25 +7,34 @@ BASE_URL = cfg["E-COMMERCE"]["ADMIN_URL"]
 
 
 def pytest_addoption(parser):
-    parser.addoption(
-        "--browser_name",
-        action="store",
-        default="chrome",
-        help="my " "option: Chrome or Firefox or IE",
-    )
+    parser.addoption("--browser")
 
 
 @pytest.fixture(scope="class")
-def create_driver(request):
+def browser(request):
+    return request.config.getoption("--browser")
+
+
+@pytest.fixture(scope="class")
+def create_driver(request, browser):
     """
     Create browser driver
+    :param browser:
+    :type browser:
     :param request:
     :type request:
     :return:
     :rtype:
     """
-    # browser_name = request.config.getoption("browser_name")
-    driver = webdriver.Chrome(executable_path=EXECUTABLE_PATH)
+    if browser.lower() == "chrome":
+        driver = webdriver.Chrome(executable_path=EXECUTABLE_PATH)
+        print("***** Launching tests in CHROME *****")
+    elif browser.lower() == "firefox":
+        driver = webdriver.Firefox()
+        print("***** Launching tests in FIREFOX *****")
+    else:
+        driver = webdriver.Ie()
+        print("***** Launching tests in Internet Explorer *****")
     driver.get(url=BASE_URL)
     print(f"Opened URL: {BASE_URL}")
     driver.maximize_window()
