@@ -1,0 +1,8 @@
+2021-01-28 11:27:02,595 - INFO - ***** test_home_page_title ****
+2021-01-28 11:27:02,595 - INFO - Login page title: Your store. Login
+2021-01-28 11:27:02,595 - INFO - Title successfully verified. Closing the browser now.
+2021-01-28 11:27:02,595 - INFO - ***** test_login_page_title ****
+2021-01-28 11:27:02,731 - INFO - Entered Username: admin@yourstore.com
+2021-01-28 11:27:02,825 - INFO - Entered Password: admin
+2021-01-28 11:27:06,810 - INFO - Login is successful.
+2021-01-28 11:27:06,811 - INFO - Closing the browser now.
