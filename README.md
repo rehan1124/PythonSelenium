@@ -11,6 +11,11 @@
 * -n=2 [Specifies to use 2 workers nodes for parallel execution. Package used: pytest-xdist.]
 * --browser Chrome [Specifies which browser is to be used for running tests]
 
+> py.test -v -s -n=2 --capture=sys --html=Reports/report.html test_cases/test_login.py --browser Chrome
+* --html=Reports/report.html [Creates report in Reports directory]
+*  --capture=sys [Direct logs to HTML report as well]
+![img.png](img.png)
+
 # Reference
 > https://github.com/pavanoltraining/nopCommerceProject
 >
