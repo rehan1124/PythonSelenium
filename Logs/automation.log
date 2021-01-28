@@ -1,8 +1,24 @@
-2021-01-28 11:27:02,595 - INFO - ***** test_home_page_title ****
-2021-01-28 11:27:02,595 - INFO - Login page title: Your store. Login
-2021-01-28 11:27:02,595 - INFO - Title successfully verified. Closing the browser now.
-2021-01-28 11:27:02,595 - INFO - ***** test_login_page_title ****
-2021-01-28 11:27:02,731 - INFO - Entered Username: admin@yourstore.com
-2021-01-28 11:27:02,825 - INFO - Entered Password: admin
-2021-01-28 11:27:06,810 - INFO - Login is successful.
-2021-01-28 11:27:06,811 - INFO - Closing the browser now.
+2021-01-28 11:48:08,834 - INFO - ***** test_home_page_title ****
+2021-01-28 11:48:08,834 - INFO - Login page title: Your store. Login
+2021-01-28 11:48:08,834 - INFO - Title successfully verified. Closing the browser now.
+2021-01-28 11:48:08,876 - INFO - ***** test_login_page_title ****
+2021-01-28 11:48:09,076 - INFO - Entered Username: admin@yourstore.com
+2021-01-28 11:48:09,175 - INFO - Entered Password: admin
+2021-01-28 11:48:14,816 - INFO - Login is successful.
+2021-01-28 11:48:14,817 - INFO - Closing the browser now.
+2021-01-28 13:05:20,445 - INFO - ***** test_login_page_title ****
+2021-01-28 13:05:20,518 - INFO - ***** test_home_page_title ****
+2021-01-28 13:05:20,518 - INFO - Login page title: Your store. Login
+2021-01-28 13:05:20,520 - INFO - Title successfully verified. Closing the browser now.
+2021-01-28 13:05:20,628 - INFO - Entered Username: admin@yourstore.com
+2021-01-28 13:05:20,760 - INFO - Entered Password: admin
+2021-01-28 13:05:26,314 - INFO - Login is successful.
+2021-01-28 13:05:26,314 - INFO - Closing the browser now.
+2021-01-28 13:15:14,562 - INFO - ***** test_home_page_title ****
+2021-01-28 13:15:14,563 - INFO - Login page title: Your store. Login
+2021-01-28 13:15:14,563 - INFO - Title successfully verified. Closing the browser now.
+2021-01-28 13:15:15,033 - INFO - ***** test_login_page_title ****
+2021-01-28 13:15:15,178 - INFO - Entered Username: admin@yourstore.com
+2021-01-28 13:15:15,267 - INFO - Entered Password: admin
+2021-01-28 13:15:20,667 - INFO - Login is successful.
+2021-01-28 13:15:20,668 - INFO - Closing the browser now.
