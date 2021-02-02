@@ -66,9 +66,9 @@ def pytest_configure(config):
     :return:
     :rtype:
     """
-    config._metadata['Project Name'] = "nopcommerce"
-    config._metadata['Module Name'] = "Customers"
-    config._metadata['QA Engineer'] = "Syed Rehan"
+    config._metadata["Project Name"] = "nopcommerce"
+    config._metadata["Module Name"] = "Customers"
+    config._metadata["QA Engineer"] = "Syed Rehan"
 
 
 def pytest_metadata(metadata):
