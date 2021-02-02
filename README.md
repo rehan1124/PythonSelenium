@@ -20,3 +20,7 @@
 > https://github.com/pavanoltraining/nopCommerceProject
 >
 > https://www.youtube.com/playlist?list=PLUDwpEzHYYLt2RzOb-_eafLAP0VSoyJhf
+
+# Release notes
+1) Added more web elements in page_objects/login_page.py
+2) Added new test-case file XXXX 
